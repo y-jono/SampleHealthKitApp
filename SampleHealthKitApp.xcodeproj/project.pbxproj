@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B9907241CF33E030023B0BB /* VitalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9907231CF33E030023B0BB /* VitalStore.swift */; };
 		8BED93FF1CC3A8E900FA05E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BED93FE1CC3A8E900FA05E9 /* AppDelegate.swift */; };
 		8BED94011CC3A8E900FA05E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BED94001CC3A8E900FA05E9 /* ViewController.swift */; };
 		8BED94041CC3A8EA00FA05E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BED94021CC3A8EA00FA05E9 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B9907231CF33E030023B0BB /* VitalStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitalStore.swift; sourceTree = "<group>"; };
 		8BED93FB1CC3A8E900FA05E9 /* SampleHealthKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleHealthKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BED93FE1CC3A8E900FA05E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BED94001CC3A8E900FA05E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				8BED94051CC3A8EA00FA05E9 /* Assets.xcassets */,
 				8BED94071CC3A8EA00FA05E9 /* LaunchScreen.storyboard */,
 				8BED940A1CC3A8EA00FA05E9 /* Info.plist */,
+				8B9907231CF33E030023B0BB /* VitalStore.swift */,
 			);
 			path = SampleHealthKitApp;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B9907241CF33E030023B0BB /* VitalStore.swift in Sources */,
 				8BED94011CC3A8E900FA05E9 /* ViewController.swift in Sources */,
 				8BED93FF1CC3A8E900FA05E9 /* AppDelegate.swift in Sources */,
 			);
@@ -498,6 +502,7 @@
 				8BED94251CC3A8EA00FA05E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BED94261CC3A8EA00FA05E9 /* Build configuration list for PBXNativeTarget "SampleHealthKitAppTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				8BED94281CC3A8EA00FA05E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BED94291CC3A8EA00FA05E9 /* Build configuration list for PBXNativeTarget "SampleHealthKitAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				8BED942B1CC3A8EA00FA05E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
